@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorBluC">#00cbf7</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="player">#360ec5</color>
+    <color name="gamecol">#e7d39e</color>
+    <color name="bgwin">#360ec5</color>
+    <color name="drawbg">#00cbf7</color>
+</resources>

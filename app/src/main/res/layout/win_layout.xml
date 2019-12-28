@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:orientation="vertical"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+
+    android:background="@color/bgwin">
+
+    <Button
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="wrap_content"
+
+        android:text="Play Again"
+
+        android:layout_marginTop="10dp"
+
+        android:layout_marginLeft="10dp"
+
+        android:background="@drawable/button_lay"
+
+        android:paddingRight="10dp"
+
+        android:paddingLeft="10dp"
+
+        android:id="@+id/back"/>
+
+    <ImageView
+
+        android:id="@+id/trophy"
+
+        android:layout_height="150dp"
+
+        android:layout_width="150dp"
+
+        android:layout_marginLeft="10dp"
+
+        android:layout_marginTop="30dp"/>
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="fill_parent"
+
+        android:textColor="@color/gamecol"
+
+        android:textSize="@dimen/congo"
+
+        android:layout_marginLeft="20dp"
+
+        android:text="CONGRATULATIONS"
+
+        android:layout_marginTop="30dp"
+
+        />
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="fill_parent"
+
+        android:textSize="@dimen/congo"
+
+        android:layout_marginTop="40dp"
+
+        android:layout_marginLeft="100dp"
+
+        android:id="@+id/wintxt"
+
+        android:textColor="@color/gamecol"
+
+        />
+
+    <TextView
+
+        android:layout_height="wrap_content"
+
+        android:layout_width="fill_parent"
+
+        android:text="WON!!!"
+
+        android:textSize="@dimen/congo"
+
+        android:layout_marginLeft="90dp"
+
+        android:layout_marginTop="30dp"
+
+        android:textColor="@color/gamecol"/>
+
+
+
+</LinearLayout>
